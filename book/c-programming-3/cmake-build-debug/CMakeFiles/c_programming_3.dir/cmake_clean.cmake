@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/c_programming_3.dir/chapter01/HelloWorld.c.obj"
   "CMakeFiles/c_programming_3.dir/main.c.obj"
   "c_programming_3.exe"
   "c_programming_3.exe.manifest"

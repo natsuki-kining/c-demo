@@ -122,6 +122,46 @@ c_programming_3/fast:
 	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/build
 .PHONY : c_programming_3/fast
 
+#=============================================================================
+# Target rules for targets named chapter
+
+# Build rule for target.
+chapter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 chapter
+.PHONY : chapter
+
+# fast build rule for target.
+chapter/fast:
+	$(MAKE) -f chapter01\CMakeFiles\chapter.dir\build.make chapter01/CMakeFiles/chapter.dir/build
+.PHONY : chapter/fast
+
+chapter01/HelloWorld.obj: chapter01/HelloWorld.c.obj
+
+.PHONY : chapter01/HelloWorld.obj
+
+# target to build an object file
+chapter01/HelloWorld.c.obj:
+	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/chapter01/HelloWorld.c.obj
+.PHONY : chapter01/HelloWorld.c.obj
+
+chapter01/HelloWorld.i: chapter01/HelloWorld.c.i
+
+.PHONY : chapter01/HelloWorld.i
+
+# target to preprocess a source file
+chapter01/HelloWorld.c.i:
+	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/chapter01/HelloWorld.c.i
+.PHONY : chapter01/HelloWorld.c.i
+
+chapter01/HelloWorld.s: chapter01/HelloWorld.c.s
+
+.PHONY : chapter01/HelloWorld.s
+
+# target to generate assembly for a file
+chapter01/HelloWorld.c.s:
+	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/chapter01/HelloWorld.c.s
+.PHONY : chapter01/HelloWorld.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +198,10 @@ help:
 	@echo ... c_programming_3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... chapter
+	@echo ... chapter01/HelloWorld.obj
+	@echo ... chapter01/HelloWorld.i
+	@echo ... chapter01/HelloWorld.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

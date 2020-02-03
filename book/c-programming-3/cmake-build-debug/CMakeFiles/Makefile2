@@ -53,16 +53,18 @@ CMAKE_BINARY_DIR = E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/c_programming_3.dir/all
+all: chapter01/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/c_programming_3.dir/clean
+clean: chapter01/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: chapter01/preinstall
 
 .PHONY : preinstall
 
@@ -73,12 +75,12 @@ preinstall:
 CMakeFiles/c_programming_3.dir/all:
 	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/depend
 	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target c_programming_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target c_programming_3"
 .PHONY : CMakeFiles/c_programming_3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/c_programming_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/c_programming_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/c_programming_3.dir/rule
@@ -92,6 +94,51 @@ c_programming_3: CMakeFiles/c_programming_3.dir/rule
 CMakeFiles/c_programming_3.dir/clean:
 	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/clean
 .PHONY : CMakeFiles/c_programming_3.dir/clean
+
+#=============================================================================
+# Directory level rules for directory chapter01
+
+# Recursive "all" directory target.
+chapter01/all: chapter01/CMakeFiles/chapter.dir/all
+
+.PHONY : chapter01/all
+
+# Recursive "clean" directory target.
+chapter01/clean: chapter01/CMakeFiles/chapter.dir/clean
+
+.PHONY : chapter01/clean
+
+# Recursive "preinstall" directory target.
+chapter01/preinstall:
+
+.PHONY : chapter01/preinstall
+
+#=============================================================================
+# Target rules for target chapter01/CMakeFiles/chapter.dir
+
+# All Build rule for target.
+chapter01/CMakeFiles/chapter.dir/all:
+	$(MAKE) -f chapter01\CMakeFiles\chapter.dir\build.make chapter01/CMakeFiles/chapter.dir/depend
+	$(MAKE) -f chapter01\CMakeFiles\chapter.dir\build.make chapter01/CMakeFiles/chapter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target chapter"
+.PHONY : chapter01/CMakeFiles/chapter.dir/all
+
+# Build rule for subdir invocation for target.
+chapter01/CMakeFiles/chapter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 chapter01/CMakeFiles/chapter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles 0
+.PHONY : chapter01/CMakeFiles/chapter.dir/rule
+
+# Convenience name for target.
+chapter: chapter01/CMakeFiles/chapter.dir/rule
+
+.PHONY : chapter
+
+# clean rule for target.
+chapter01/CMakeFiles/chapter.dir/clean:
+	$(MAKE) -f chapter01\CMakeFiles\chapter.dir\build.make chapter01/CMakeFiles/chapter.dir/clean
+.PHONY : chapter01/CMakeFiles/chapter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

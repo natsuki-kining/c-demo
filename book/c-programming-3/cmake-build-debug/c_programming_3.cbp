@@ -5,7 +5,7 @@
 		<Option title="c_programming_3"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\chapter01\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug"/>
@@ -73,12 +73,55 @@
 					<DistClean command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="chapter">
+				<Option output="E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/chapter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 chapter"/>
+					<CompileFile command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chapter/fast">
+				<Option output="E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/chapter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 chapter/fast"/>
+					<CompileFile command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramFiles/cpp/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="E:/IT/code/c/c-demo/book/c-programming-3/chapter01/HelloWorld.c">
+			<Option target="c_programming_3"/>
+			<Option target="chapter"/>
+		</Unit>
 		<Unit filename="E:/IT/code/c/c-demo/book/c-programming-3/main.c">
 			<Option target="c_programming_3"/>
 		</Unit>
 		<Unit filename="E:/IT/code/c/c-demo/book/c-programming-3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/IT/code/c/c-demo/book/c-programming-3/chapter01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\chapter01\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
