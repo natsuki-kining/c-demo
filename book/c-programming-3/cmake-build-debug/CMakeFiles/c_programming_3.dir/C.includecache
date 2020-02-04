@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+E:/IT/code/c/c-demo/book/c-programming-3/chapter01/HelloWorld.c
+stdio.h
+-
+
 E:/IT/code/c/c-demo/book/c-programming-3/main.c
 stdio.h
 -

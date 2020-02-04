@@ -1,0 +1,1 @@
+* stdio： standard input & output
