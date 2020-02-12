@@ -7,4 +7,5 @@ add_executable(c_programming_3 main.c chapter01/HelloWorld.c)
 
 #add_subdirectory(chapter01)
 #add_subdirectory(chapter03)
-add_subdirectory(chapter04)
+#add_subdirectory(chapter04)
+add_subdirectory(chapter06)

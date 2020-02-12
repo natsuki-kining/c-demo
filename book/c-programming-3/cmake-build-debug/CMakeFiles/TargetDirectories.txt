@@ -1,6 +1,6 @@
 E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/CMakeFiles/c_programming_3.dir
 E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter04/CMakeFiles/chapter04.dir
-E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter04/CMakeFiles/edit_cache.dir
-E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter04/CMakeFiles/rebuild_cache.dir
+E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter06/CMakeFiles/edit_cache.dir
+E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter06/CMakeFiles/chapter06.dir
+E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter06/CMakeFiles/rebuild_cache.dir

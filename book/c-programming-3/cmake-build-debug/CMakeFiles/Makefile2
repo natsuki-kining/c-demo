@@ -53,18 +53,18 @@ CMAKE_BINARY_DIR = E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/c_programming_3.dir/all
-all: chapter04/all
+all: chapter06/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/c_programming_3.dir/clean
-clean: chapter04/clean
+clean: chapter06/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
-preinstall: chapter04/preinstall
+preinstall: chapter06/preinstall
 
 .PHONY : preinstall
 
@@ -96,49 +96,49 @@ CMakeFiles/c_programming_3.dir/clean:
 .PHONY : CMakeFiles/c_programming_3.dir/clean
 
 #=============================================================================
-# Directory level rules for directory chapter04
+# Directory level rules for directory chapter06
 
 # Recursive "all" directory target.
-chapter04/all: chapter04/CMakeFiles/chapter04.dir/all
+chapter06/all: chapter06/CMakeFiles/chapter06.dir/all
 
-.PHONY : chapter04/all
+.PHONY : chapter06/all
 
 # Recursive "clean" directory target.
-chapter04/clean: chapter04/CMakeFiles/chapter04.dir/clean
+chapter06/clean: chapter06/CMakeFiles/chapter06.dir/clean
 
-.PHONY : chapter04/clean
+.PHONY : chapter06/clean
 
 # Recursive "preinstall" directory target.
-chapter04/preinstall:
+chapter06/preinstall:
 
-.PHONY : chapter04/preinstall
+.PHONY : chapter06/preinstall
 
 #=============================================================================
-# Target rules for target chapter04/CMakeFiles/chapter04.dir
+# Target rules for target chapter06/CMakeFiles/chapter06.dir
 
 # All Build rule for target.
-chapter04/CMakeFiles/chapter04.dir/all:
-	$(MAKE) -f chapter04\CMakeFiles\chapter04.dir\build.make chapter04/CMakeFiles/chapter04.dir/depend
-	$(MAKE) -f chapter04\CMakeFiles\chapter04.dir\build.make chapter04/CMakeFiles/chapter04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target chapter04"
-.PHONY : chapter04/CMakeFiles/chapter04.dir/all
+chapter06/CMakeFiles/chapter06.dir/all:
+	$(MAKE) -f chapter06\CMakeFiles\chapter06.dir\build.make chapter06/CMakeFiles/chapter06.dir/depend
+	$(MAKE) -f chapter06\CMakeFiles\chapter06.dir\build.make chapter06/CMakeFiles/chapter06.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target chapter06"
+.PHONY : chapter06/CMakeFiles/chapter06.dir/all
 
 # Build rule for subdir invocation for target.
-chapter04/CMakeFiles/chapter04.dir/rule: cmake_check_build_system
+chapter06/CMakeFiles/chapter06.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 chapter04/CMakeFiles/chapter04.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 chapter06/CMakeFiles/chapter06.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\IT\code\c\c-demo\book\c-programming-3\cmake-build-debug\CMakeFiles 0
-.PHONY : chapter04/CMakeFiles/chapter04.dir/rule
+.PHONY : chapter06/CMakeFiles/chapter06.dir/rule
 
 # Convenience name for target.
-chapter04: chapter04/CMakeFiles/chapter04.dir/rule
+chapter06: chapter06/CMakeFiles/chapter06.dir/rule
 
-.PHONY : chapter04
+.PHONY : chapter06
 
 # clean rule for target.
-chapter04/CMakeFiles/chapter04.dir/clean:
-	$(MAKE) -f chapter04\CMakeFiles\chapter04.dir\build.make chapter04/CMakeFiles/chapter04.dir/clean
-.PHONY : chapter04/CMakeFiles/chapter04.dir/clean
+chapter06/CMakeFiles/chapter06.dir/clean:
+	$(MAKE) -f chapter06\CMakeFiles\chapter06.dir\build.make chapter06/CMakeFiles/chapter06.dir/clean
+.PHONY : chapter06/CMakeFiles/chapter06.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
