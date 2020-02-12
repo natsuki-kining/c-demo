@@ -123,17 +123,17 @@ c_programming_3/fast:
 .PHONY : c_programming_3/fast
 
 #=============================================================================
-# Target rules for targets named chapter03
+# Target rules for targets named chapter04
 
 # Build rule for target.
-chapter03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 chapter03
-.PHONY : chapter03
+chapter04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 chapter04
+.PHONY : chapter04
 
 # fast build rule for target.
-chapter03/fast:
-	$(MAKE) -f chapter03\CMakeFiles\chapter03.dir\build.make chapter03/CMakeFiles/chapter03.dir/build
-.PHONY : chapter03/fast
+chapter04/fast:
+	$(MAKE) -f chapter04\CMakeFiles\chapter04.dir\build.make chapter04/CMakeFiles/chapter04.dir/build
+.PHONY : chapter04/fast
 
 chapter01/HelloWorld.obj: chapter01/HelloWorld.c.obj
 
@@ -198,7 +198,7 @@ help:
 	@echo ... c_programming_3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... chapter03
+	@echo ... chapter04
 	@echo ... chapter01/HelloWorld.obj
 	@echo ... chapter01/HelloWorld.i
 	@echo ... chapter01/HelloWorld.s

@@ -10,6 +10,7 @@ void main(){
     a = (3,a*3);
     b = 3 * 5 , b * 6;//不生效
     c = (3,(c * 3, (c * 3, c * 4 )));
+    int d = (d = 3,d * 3);
 
-    printf("a:%d,b:%d,c:%d",a,b,c);
+    printf("a:%d,b:%d,c:%d,d:%d",a,b,c,d);
 }

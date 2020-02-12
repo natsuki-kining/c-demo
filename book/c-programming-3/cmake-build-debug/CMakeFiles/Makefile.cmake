@@ -30,7 +30,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/ProgramFiles/IDE/CLion-2019.3.3.win/bin/cmake/win/share/cmake-3.15/Modules/Platform/WindowsPaths.cmake"
   "D:/ProgramFiles/IDE/CLion-2019.3.3.win/bin/cmake/win/share/cmake-3.15/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "../chapter03/CMakeLists.txt"
+  "../chapter04/CMakeLists.txt"
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
@@ -45,11 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "chapter03/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "chapter04/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/c_programming_3.dir/DependInfo.cmake"
-  "chapter03/CMakeFiles/chapter03.dir/DependInfo.cmake"
+  "chapter04/CMakeFiles/chapter04.dir/DependInfo.cmake"
   )
