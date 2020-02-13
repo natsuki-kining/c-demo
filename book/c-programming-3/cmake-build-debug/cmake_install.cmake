@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter06/cmake_install.cmake")
+  include("E:/IT/code/c/c-demo/book/c-programming-3/cmake-build-debug/chapter08/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
