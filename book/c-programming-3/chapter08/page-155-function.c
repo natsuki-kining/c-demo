@@ -7,7 +7,7 @@
  */
 
 #include <stdio.h>
-void main(){
+void main(){  
     void printX();
     void helloWorld();
     void printN();
