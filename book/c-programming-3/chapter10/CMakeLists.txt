@@ -1,3 +1,3 @@
-SET(chapter010_directory page-231-array-poointer.c)
+SET(chapter010_directory page-237-array-inverted-order.c)
 
 ADD_EXECUTABLE(chapter010 ${chapter010_directory})
