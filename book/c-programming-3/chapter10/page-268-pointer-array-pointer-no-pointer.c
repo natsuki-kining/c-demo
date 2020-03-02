@@ -11,6 +11,7 @@ void main()
     void sort(char *name[],int n);
     void print(char *name[],int n);
     char *name[]={"Follow me","BASIC","Great Wall","FORTRAN","Computer design","Hello world"};
+     //sizeof 可以获得数据类型或变量在内存中所占的字节数
     printf("sizeof(name) / sizeof(name[0]):%d\n",(sizeof(name) / sizeof(name[0])));
     int n = sizeof(name) / sizeof(name[0]);
     sort(name,n);
@@ -24,6 +25,7 @@ void sort(char *name[],int n)
     for (int i = 0; i < n-1; ++i) {
         int k = i;
         for (int j = i+1; j < n; ++j) {
+            //C 库函数 int strcmp(const char *str1, const char *str2) 把 str1 所指向的字符串和 str2 所指向的字符串进行比较。
             if(strcmp(name[k],name[j])>0){
                 k = j;
             }
