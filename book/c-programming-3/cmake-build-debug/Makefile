@@ -110,84 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named c_programming_3
+# Target rules for targets named chapter11
 
 # Build rule for target.
-c_programming_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 c_programming_3
-.PHONY : c_programming_3
+chapter11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 chapter11
+.PHONY : chapter11
 
 # fast build rule for target.
-c_programming_3/fast:
-	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/build
-.PHONY : c_programming_3/fast
-
-#=============================================================================
-# Target rules for targets named chapter08
-
-# Build rule for target.
-chapter08: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 chapter08
-.PHONY : chapter08
-
-# fast build rule for target.
-chapter08/fast:
-	$(MAKE) -f chapter08\CMakeFiles\chapter08.dir\build.make chapter08/CMakeFiles/chapter08.dir/build
-.PHONY : chapter08/fast
-
-chapter01/HelloWorld.obj: chapter01/HelloWorld.c.obj
-
-.PHONY : chapter01/HelloWorld.obj
-
-# target to build an object file
-chapter01/HelloWorld.c.obj:
-	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/chapter01/HelloWorld.c.obj
-.PHONY : chapter01/HelloWorld.c.obj
-
-chapter01/HelloWorld.i: chapter01/HelloWorld.c.i
-
-.PHONY : chapter01/HelloWorld.i
-
-# target to preprocess a source file
-chapter01/HelloWorld.c.i:
-	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/chapter01/HelloWorld.c.i
-.PHONY : chapter01/HelloWorld.c.i
-
-chapter01/HelloWorld.s: chapter01/HelloWorld.c.s
-
-.PHONY : chapter01/HelloWorld.s
-
-# target to generate assembly for a file
-chapter01/HelloWorld.c.s:
-	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/chapter01/HelloWorld.c.s
-.PHONY : chapter01/HelloWorld.c.s
-
-main.obj: main.c.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\c_programming_3.dir\build.make CMakeFiles/c_programming_3.dir/main.c.s
-.PHONY : main.c.s
+chapter11/fast:
+	$(MAKE) -f chapter11\CMakeFiles\chapter11.dir\build.make chapter11/CMakeFiles/chapter11.dir/build
+.PHONY : chapter11/fast
 
 # Help Target
 help:
@@ -195,16 +128,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... c_programming_3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... chapter08
-	@echo ... chapter01/HelloWorld.obj
-	@echo ... chapter01/HelloWorld.i
-	@echo ... chapter01/HelloWorld.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... chapter11
 .PHONY : help
 
 
