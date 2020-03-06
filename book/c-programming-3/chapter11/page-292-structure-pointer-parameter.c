@@ -28,7 +28,7 @@ void main()
 
 void print(struct student stu)
 {
-    printf(FORMAT,stu.num,stu.num,stu.score[0],stu.score[1],stu.score[2]);
+    printf(FORMAT,stu.num,stu.name,stu.score[0],stu.score[1],stu.score[2]);
     printf("\n");
 
 }
